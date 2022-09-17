@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main(void) {
+	// your code goes here
+	int iq;
+	scanf("%d",&iq);
+	if(iq+7 > 170)
+	    printf("Yes");
+	 else printf("No");
+	return 0;
+}
