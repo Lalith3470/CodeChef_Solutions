@@ -3,6 +3,7 @@ for _ in range(int(input())):
     A = list(map(int, input().split(' ')))
     sum = 0
     a=''
+    
     for i in range(N):
         sum += A[i]
         if sum<=k:
